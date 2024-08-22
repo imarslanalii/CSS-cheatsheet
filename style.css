@@ -17,6 +17,24 @@ body{
     margin: 20px;
     padding: 20px;
 }
+
+a{
+     text-decoration: none;
+    color: #000;
+}
+
+a:hover{
+    color: red;
+}
+
+a:active{
+    color:green;
+}
+
+/* a:visited {
+    color: purple;
+} */
+
 .container{
     width: 80%;
     margin: auto;
@@ -55,4 +73,35 @@ body{
 }
 .catogories h2{
     text-align: center;
+}
+.catogories ul{
+    padding: 0;
+    padding-left: 20px
+    list-style: square;
+    list-style: none;
+}
+
+.catogories li{
+    padding-bottom: 5px;
+    border-bottom: dotted 1px #333;
+
+    /* list-style: image('url/image.png'); */
+
+}
+
+.my-form{
+    padding: 20px;
+}
+
+.my-form .form-group{
+    padding-bottom: 15px;
+}
+
+.my-form label {
+    display: block;
+}
+
+.my-form input [type ="text" ], .my-form textarea{
+    padding: 8px;
+    width: 100%;
 }
